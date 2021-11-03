@@ -8,7 +8,10 @@ namespace Trabalho2
     {
         private bool modo;//automatico ou manual
         private int andar;//onde esta o elevador
-        public Elevador()
+
+        List<Botao> bt = new List<Botao>();
+
+        public Elevador(int num, bool md, int a)
         {
 
         }
