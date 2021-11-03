@@ -8,10 +8,7 @@ namespace Trabalho2
     {
         private bool acao;
         private bool estado;
-        public Botao()
-        {
-
-        }
+        public Botao(){}
 
         public void SetAcao(bool a)
         {
